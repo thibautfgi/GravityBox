@@ -1,0 +1,50 @@
+canvas { /* permet de supprimer la marge blanche de notre fenetre */
+    position: fixed;
+    top: 0;
+    left:0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+
+.content {
+    position: fixed;
+    text-align: center;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    text-shadow: 2px 2px 4px #000000;
+    text-rendering: auto;
+    font-family: 'Segoe UI', Tahoma,Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.key {
+    font-size: 35px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #4a1ca1;
+    border-radius: 999px;
+    padding: 30px 20px;
+    margin: 120px;
+    box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+}
